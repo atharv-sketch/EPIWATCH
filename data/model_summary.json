@@ -1,0 +1,11 @@
+{
+  "accuracy": 0.9933396764985728,
+  "feature_importances": {
+    "rt_estimate": 0.4022051982387159,
+    "case_growth_rate": 0.30803888160842796,
+    "vax_coverage": 0.2611188769593926,
+    "stringency_index": 0.02863704319346358
+  },
+  "countries_count": 201,
+  "trained_at": "2026-04-01T18:02:57.119556+00:00"
+}
