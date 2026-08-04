@@ -374,4 +374,4 @@ def global_stats() -> GlobalStats:
         global_avg_risk_score=float(pd.to_numeric(latest["risk_score"], errors="coerce").mean()),
         highest_risk_country=str(highest_row["country"]),
         last_updated=last_date.strftime("%Y-%m-%d") if pd.notna(last_date) else "",
-    )
+    )) 
