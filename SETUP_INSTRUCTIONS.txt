@@ -1,0 +1,33 @@
+# This is a setup guide file
+# Run this file or the commands below to create the project structure
+
+# Option 1: Using Node.js (if installed)
+# From C:\Users\silverfang\epiwatch, run:
+# node create_structure.js
+
+# Option 2: Using Python (if installed)
+# From C:\Users\silverfang\epiwatch, run:
+# python create_structure_only.py
+
+# Option 3: Using VBScript (Windows native)
+# From C:\Users\silverfang\epiwatch, run:
+# cscript create_structure.vbs
+
+# Option 4: Using Batch file (Windows native)
+# From C:\Users\silverfang\epiwatch, run:
+# create_dirs_and_files.bat
+
+# Manual Option: Using Command Prompt
+# Run these commands from C:\Users\silverfang\epiwatch:
+mkdir backend
+mkdir frontend
+mkdir data
+mkdir notebooks
+mkdir .github\workflows
+type nul > backend\__init__.py
+type nul > backend\data_pipeline.py
+type nul > backend\model.py
+type nul > backend\api.py
+type nul > backend\requirements.txt
+type nul > data\.gitkeep
+type nul > notebooks\.gitkeep
